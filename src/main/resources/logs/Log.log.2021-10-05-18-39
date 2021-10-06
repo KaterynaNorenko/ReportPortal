@@ -1,0 +1,12 @@
+2021-10-05 18:39:13 INFO  [main]: User opens the Initial Home Page
+2021-10-05 18:39:20 INFO  [main]: User searches for a product
+2021-10-05 18:39:27 INFO  [main]: User applies filters
+2021-10-05 18:39:28 INFO  [main]: User adds a product to cart
+2021-10-05 18:39:33 INFO  [main]: User checks the cart order summary
+2021-10-05 18:39:35 INFO  [main]: User registers as a new customer
+2021-10-05 18:39:38 INFO  [main]: User confirms the email
+2021-10-05 18:39:39 INFO  [main]: User verifies order summary
+2021-10-05 18:39:39 INFO  [main]: User selects the country
+2021-10-05 18:39:44 INFO  [main]: User proceeds to the shipment
+2021-10-05 18:39:44 INFO  [main]: User is not able to order without filling in the address form
+2021-10-05 18:39:45 INFO  [main]: User fills in the address information

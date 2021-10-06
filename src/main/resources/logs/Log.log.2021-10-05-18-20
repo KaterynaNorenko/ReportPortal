@@ -1,0 +1,10 @@
+2021-10-05 18:20:09 INFO  [main]: User opens the Initial Home Page
+2021-10-05 18:20:17 INFO  [main]: User searches for a product
+2021-10-05 18:20:25 INFO  [main]: User applies filters
+2021-10-05 18:20:26 INFO  [main]: User adds a product to cart
+2021-10-05 18:20:32 INFO  [main]: User checks the cart order summary
+2021-10-05 18:20:35 INFO  [main]: User registers as a new customer
+2021-10-05 18:20:42 INFO  [main]: User confirms the email
+2021-10-05 18:20:42 INFO  [main]: User verifies order summary
+2021-10-05 18:20:43 INFO  [main]: User selects the country
+2021-10-05 18:20:45 INFO  [main]: User proceeds to the shipment
