@@ -4,8 +4,6 @@ import io.cucumber.datatable.DataTable;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 
-import java.util.List;
-import java.util.Map;
 
 import static com.cucumber.junit.util.ActionsManager.newAction;
 import static com.cucumber.junit.util.JsExecutorManager.executeJsScript;
@@ -93,24 +91,6 @@ public class CheckoutShipment extends BasePage {
    }
 
 
-/*    public String getFieldTextByName(String fieldName) {
-        if ("firstName".equals(fieldName)) {
-            return findElement(FIRST_NAME_MESSAGE).getText();
-        } else if ("lastName".equals(fieldName)) {
-            return findElement(lAST_NAME_MESSAGE).getText();
-        } else if ("addressLine1".equals(fieldName)) {
-            return findElement(ADDRESS_LINE1_MESSAGE).getText();
-        } else if ("city".equals(fieldName)) {
-            return findElement(CITY_MESSAGE).getText();
-        } else if ("postCode".equals(fieldName)) {
-            return findElement(POST_CODE_MESSAGE).getText();
-        } else {
-            return "";
-        }
-    }
-
- */
-
     public CheckoutShipment fillAddressInformation(DataTable addressInformation) {
         findElement(FIRST_NAME).sendKeys(addressInformation.cell(1, 0));
         findElement(LAST_NAME).sendKeys(addressInformation.cell(1, 1));
@@ -130,10 +110,5 @@ public class CheckoutShipment extends BasePage {
         findElement(CVV).sendKeys(cardDetails.cell(5, 1));
         return this;
     }
-/*
-        public CheckoutShipment enterCardDetails(Map<String, String> cardDetails) {
-        executeJsScript("window.scrollBy(0,500)");
-        newSelect(CARD_TYPE).selectByVisibleText(cardDetails.get(CARD_TYPE_KEY));
 
- */
 }

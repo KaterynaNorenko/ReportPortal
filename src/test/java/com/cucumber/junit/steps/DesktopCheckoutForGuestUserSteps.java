@@ -128,7 +128,7 @@ public class DesktopCheckoutForGuestUserSteps {
     @And("I fill delivery address information manually:")
     public void fillDeliveryAddressInformationManually(DataTable addressInformation) {
         checkoutShipment.fillAddressInformation(addressInformation);
-        logger.info("User fills in the address information");
+        logger.error("Informational messages are not correct or can not be verified");
     }
 
     @When("I press Next button on checkout")
@@ -139,7 +139,7 @@ public class DesktopCheckoutForGuestUserSteps {
     @And("I confirm Shipment Method by pressing another Next button")
     public void confirmShipmentMethodByPressingAnotherNextButton() {
         checkoutShipment.clickNextBtnConfirmation();
-        logger.info("User confirms shipment");
+        logger.error("User is not able to confirm shipment");
     }
 
     @And("I enter my card details")

@@ -14,9 +14,9 @@ import java.util.Date;
 public class ScreenHooks {
     @After
     public void getScreenshot(Scenario scenario) throws IOException {
-        Date currentDate = new Date();
-        String ssFileName = currentDate.toString();
-        File ssFile = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
+         Date currentDate = new Date();
+         String ssFileName = currentDate.toString().replace(" ", "-").replace(":", "-");
+         File ssFile = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
 
         if (scenario.isFailed()){
             FileUtils.copyFile(ssFile, new File(".//screenshot//"+ssFileName+".png"));
