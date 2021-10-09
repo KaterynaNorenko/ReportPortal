@@ -1,0 +1,12 @@
+2021-10-09 18:54:07 INFO  [main]: User applies filters
+2021-10-09 18:54:08 INFO  [main]: User adds a product to cart
+2021-10-09 18:54:14 INFO  [main]: User checks the cart order summary
+2021-10-09 18:54:16 INFO  [main]: User registers as a new customer
+2021-10-09 18:54:22 INFO  [main]: User confirms the email
+2021-10-09 18:54:22 INFO  [main]: User verifies order summary
+2021-10-09 18:54:22 INFO  [main]: User selects the country
+2021-10-09 18:54:25 INFO  [main]: User proceeds to the shipment
+2021-10-09 18:54:25 INFO  [main]: User is not able to order without filling in the address form
+2021-10-09 18:54:27 ERROR [main]: Informational messages are not correct or can not be verified
+2021-10-09 18:54:40 ERROR [main]: User is not able to confirm shipment
+2021-10-09 18:54:42 INFO  [main]: User provides card details
